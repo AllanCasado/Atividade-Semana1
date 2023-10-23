@@ -15,7 +15,7 @@ void setup() {
 }
 
 void loop() {
-  delay(1500);  // faz a leitura a cada 2 segundos
+  delay(1500);  // faz a leitura a cada 1,5 segundos
 
   // pega a temperatura e humidade no sensor
   float humidity = dht.readHumidity();
